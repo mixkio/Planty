@@ -1,6 +1,6 @@
 import ListIndex from '../../../components/intro/ListIndex';
 
-const IntroThirdPage = ({ screenWidth, screenHeight, currentPage }) => {
+const IntroSeventhPage = ({ screenWidth, screenHeight, currentPage }) => {
   return (
     <div
       className="full-height page third-page "
@@ -16,12 +16,12 @@ const IntroThirdPage = ({ screenWidth, screenHeight, currentPage }) => {
               currentPage === 2 ? 'page-text third-page-ani' : 'page-text'
             }
           >
-            <h3>당신만을 위해 준비한</h3>
-            <p>식물 추천</p>
+            <h3>나의 반려식물들을 당신에게</h3>
+            <p>식물 정원</p>
           </div>
           <div className="image-box">
             <img
-              src={require('../css/recommand.gif')}
+              src={require('../css/feed.gif')}
               width="100%"
               height="100%"
             ></img>
@@ -33,4 +33,4 @@ const IntroThirdPage = ({ screenWidth, screenHeight, currentPage }) => {
   );
 };
 
-export default IntroThirdPage;
+export default IntroSeventhPage;
